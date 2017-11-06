@@ -3,12 +3,9 @@ import java.io.Console;
 class studio {
   
   public static void main(String[] Args){
-    int firstNumber = inputNumber("Please enter number");
-    System.out.println(firstNumber);
-    String operator = operator("Please enter operator");
-    System.out.println(operator);
-    int secondNumber = inputNumber("Please enter 2ndnumber");
-    System.out.println(secondNumber);
+    int firstNumber = inputNumber("Please enter number ");
+    String operator = operator("Please enter operator ");
+    int secondNumber = inputNumber("Please enter 2ndnumber ");
     int result = calculation(firstNumber, secondNumber, operator);
     System.out.println(result);
   }
